@@ -430,16 +430,22 @@ section .title::after{
 .contact .contact-content .row .info{
     margin-left: 30px;
 }
-.contact .contact-content .row i{
-    font-size: 25px;
-    color: crimson;
-}
 .contact .contact-content .info .head{
     font-weight: 500;
 }
 .contact .contact-content .info .sub-title{
     color: #333;
 }
+.contact .contact-content .info .sub-title a{
+    color: #333;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.contact .contact-content .info .sub-title a:hover{
+    color: crimson;
+    text-decoration: none;
+}
+/*
 .contact .right form .fields{
     display: flex;
 }
@@ -500,20 +506,13 @@ section .title::after{
     color: crimson;
     background: none;
 }
-
+*/
 /* footer section styling */
 footer{
     background: #111;
     padding: 15px 23px;
     color: #fff;
     text-align: center;
-}
-footer span a{
-    color: crimson;
-    text-decoration: none;
-}
-footer span a:hover{
-    text-decoration: underline;
 }
 .explicative-icons{
     height: 70px;
