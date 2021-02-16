@@ -1,6 +1,6 @@
 # professional-portfolio
 
-A modern, professional and responsive Portfolio. Created using HTML, CSS, SCSS, JavaScript.
+A modern, professional and responsive Portfolio. Created using HTML, CSS, and JavaScript.
 
 ## Screenshots
 
