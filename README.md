@@ -42,4 +42,4 @@ Here are some screenshots.
 ## Run and deploy the projet
 
 To run the project, you can simply open it with Live Server in your browser like any HTML file. 
-You can use [**Github Pages**](https://pages.github.com/) to deploy your project, since the project is simple and does not include a backend.
+You can use [**Github Pages**](https://pages.github.com/) to deploy the project, since it is simple and does not include a backend.
