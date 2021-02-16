@@ -4,6 +4,8 @@ A modern, professional and responsive Portfolio. Created using HTML, CSS, and Ja
 
 ## Screenshots
 
+Here are some screenshots.
+
 <table>
   <tr>
     <td><b>Home page</b></td>
