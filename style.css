@@ -547,6 +547,9 @@ footer{
         display: block;
         z-index: 999;
     }
+    .menu-btn:focus{
+        outline: none;
+    }
     .menu-btn img.active {
         visibility:hidden;
     }
