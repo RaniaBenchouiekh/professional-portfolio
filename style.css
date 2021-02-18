@@ -650,5 +650,6 @@ footer{
         width: 35px;
         padding: 3px;
         font-size: 23px;
+        line-height: 10px;
     }
 }
