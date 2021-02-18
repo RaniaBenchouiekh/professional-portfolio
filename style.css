@@ -547,8 +547,19 @@ footer{
         display: block;
         z-index: 999;
     }
-    .menu-btn i.active:before{
-        content: "\f00d";
+    .menu-btn img.active {
+        visibility:hidden;
+    }
+    .menu-btn span{
+        visibility: hidden;
+    }
+    .menu-btn img.active + span{
+        visibility: visible;
+        z-index: 999;
+        color: #fff;
+        font-size: 30px;
+        font-weight: bolder;
+        margin-right: 15px;
     }
     .navbar .menu{
         position: fixed;
