@@ -157,7 +157,6 @@ section .title::after{
     bottom: 30px;
     opacity: 1;
     pointer-events: auto;
-    line-height: 45px;
 }
 .scroll-up-btn:hover{
     filter: brightness(90%);
@@ -661,6 +660,6 @@ footer{
         height: 38px;
         width: 35px;
         font-size: 23px;
-        line-height: 35px;
+        line-height: 45px;
     }
 }
