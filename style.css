@@ -547,7 +547,7 @@ footer{
         display: block;
         z-index: 999;
     }
-    .menu-btn::selection{
+    .menu-btn:active{
         background: #000;
     }
     .menu-btn img.active {
