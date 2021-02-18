@@ -157,6 +157,7 @@ section .title::after{
     bottom: 30px;
     opacity: 1;
     pointer-events: auto;
+    line-height: 45px;
 }
 .scroll-up-btn:hover{
     filter: brightness(90%);
