@@ -313,7 +313,7 @@ section .title::after{
 /* skills section styling */
 
 .skills .title::after{
-    content: "progress learning";
+    content: "in progress";
 }
 .skills .skills-content .column{
     width: calc(25% - 80px);
