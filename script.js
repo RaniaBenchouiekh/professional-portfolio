@@ -32,7 +32,6 @@ $(document).ready(function(){
         $('.navbar .menu').toggleClass("active");
         $('.menu-btn img').toggleClass("active");
     });
-
     // typing text animation script
     var typed = new Typed(".typing", {
         strings: ["Software Engineer", "Developer"],
