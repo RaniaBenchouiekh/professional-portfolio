@@ -547,8 +547,8 @@ footer{
         display: block;
         z-index: 999;
     }
-    .menu-btn img.active + img {
-        visibility:hidden;
+    .menu-btn img.active {
+        display:none;
     }
     .menu-btn span{
         visibility: hidden;
