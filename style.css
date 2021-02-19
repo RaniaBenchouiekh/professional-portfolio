@@ -313,7 +313,7 @@ section .title::after{
 /* skills section styling */
 
 .skills .title::after{
-    content: "What i know";
+    content: "in progress";
 }
 .skills .skills-content .column{
     width: calc(25% - 80px);
@@ -547,9 +547,12 @@ footer{
         display: block;
         z-index: 999;
     }
+<<<<<<< HEAD
     .menu-btn:focus{
         outline: none;
     }
+=======
+>>>>>>> 5e5feca30781040557d1b42fa9d6635ee25229d6
     .menu-btn img.active {
         visibility:hidden;
     }
@@ -663,6 +666,6 @@ footer{
         height: 38px;
         width: 35px;
         font-size: 23px;
-        line-height: 38px;
+        line-height: 45px;
     }
 }
