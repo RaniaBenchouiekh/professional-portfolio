@@ -27,7 +27,7 @@ Here are some screenshots.
     <td><b>Contact page</b></td>
   </tr>
   <tr>
-    <td><img src="screenshots/Picture.png" width="470"/></td>
+    <td><img src="screenshots/Picture5.png" width="470"/></td>
   </tr>
  </table>
  
