@@ -323,9 +323,34 @@
                         </div>
                     </div>
                 </div>
-                <div class="column right">
+                <!-- <div class="column right">
                     <img src="images/mail-me.svg" alt="Mailing picture" class="mailing">
-                </div>
+                </div> -->
+                <div class="column right">
+                    <form action="https://formspree.io/f/mbjpnrwz" method="POST" id="my-form">
+                        <div class="fields">
+                            <div class="field name">
+                                <label for="name" class="field-title">Name/Company</label>
+                                <input type="text" name="name" placeholder="Your name/company" required>
+                            </div>
+                            <div class="field email">
+                                <label for="email" class="field-title">Email Address</label>
+                                <input type="email" name="email" placeholder="Type your email" required>
+                            </div>  
+                        </div>
+                        <div class="field">
+                            <label for="subject" class="field-title">Subject</label>
+                            <input type="text" name="subject" placeholder="Specify a subject.." required>
+                        </div>
+                        <div class="field textarea">
+                            <label for="message" class="field-title">Message</label>
+                            <textarea cols="30" rows="10" name="message" placeholder="Type your message.." required></textarea>
+                        </div>
+                        <div class="button">
+                            <button type="submit">Send Message</button>
+                        </div>
+                        <div id="status" class=""></div>
+                    </form>
             </div>
         </div>
     </section>
@@ -335,7 +360,9 @@
         <span>&copy; 2021 | All rights reserved.</span>
     </footer>
 
+    <!--Scripts-->
     <script src="script.js"></script>
+    <script src="./contact.js"></script>
 </body>
 
 </html>

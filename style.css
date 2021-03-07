@@ -414,7 +414,7 @@ section .title::after{
 .contact .contact-content .text{
     font-size: 20px;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .contact .contact-content .left p{
     text-align: justify;
@@ -445,15 +445,20 @@ section .title::after{
     color: crimson;
     text-decoration: none;
 }
-/*
+
 .contact .right form .fields{
     display: flex;
 }
 .contact .right form .field,
 .contact .right form .fields .field{
-    height: 45px;
+    height: 40px;
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 40px;
+}
+.contact .field-title{
+    margin-left: 3px;
+    padding-bottom: 20px;
+    font-size: 15px;
 }
 .contact .right form .textarea{
     height: 80px;
@@ -473,7 +478,7 @@ section .title::after{
     border-radius: 6px;
     outline: none;
     padding: 0 15px;
-    font-size: 17px;
+    font-size: 13px;
     font-family: 'Poppins', sans-serif;
     transition: all 0.3s ease;
 }
@@ -506,7 +511,36 @@ section .title::after{
     color: crimson;
     background: none;
 }
-*/
+.contact .right form #status{
+    width: 100%;
+    text-align: center;
+    padding: 8px;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+.contact .right form #status.success{
+    background-color: rgb(211, 250, 153) ;
+    animation: status 4s ease forwards;
+}
+.contact .right form #status.error{
+    background-color: rgb(250, 129, 92) ;
+    color: #fff;
+    animation: status 4s ease forwards;
+}
+@keyframes status {
+    0%{
+        opacity: 1;
+        pointer-events: all;
+    }
+    90%{
+        opacity: 1;
+        pointer-events: all;
+    }
+    100%{
+        opacity: 0;
+        pointer-events: none;
+    }
+}
 /* footer section styling */
 footer{
     background: #111;
